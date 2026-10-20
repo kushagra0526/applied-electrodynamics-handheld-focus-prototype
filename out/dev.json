@@ -1,0 +1,436 @@
+{
+ "set": "dev",
+ "results": {
+  "free_space": {
+   "walls": 15,
+   "targets": 62,
+   "found": 8,
+   "false": 8,
+   "drill": 11280,
+   "unsafe": 1990,
+   "danger": 1943,
+   "false_stop": 69,
+   "dz_median_mm": 26.387148779003866,
+   "dz_p90_mm": 36.147330583013634,
+   "dx_median_mm": 5.306601853163534
+  },
+  "nominal_eps": {
+   "walls": 15,
+   "targets": 62,
+   "found": 62,
+   "false": 68,
+   "drill": 11280,
+   "unsafe": 1990,
+   "danger": 292,
+   "false_stop": 815,
+   "dz_median_mm": 11.617162068716935,
+   "dz_p90_mm": 15.543721376838217,
+   "dx_median_mm": 0.0
+  },
+  "this": {
+   "walls": 15,
+   "targets": 62,
+   "found": 62,
+   "false": 72,
+   "drill": 11280,
+   "unsafe": 1990,
+   "danger": 0,
+   "false_stop": 1184,
+   "dz_median_mm": 1.411361680196275,
+   "dz_p90_mm": 4.773516548210874,
+   "dx_median_mm": 0.0
+  }
+ },
+ "walls": [
+  {
+   "seed": 1,
+   "wall": "drywall_5/8",
+   "n_true": 1.5239568556626903,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 3,
+    "danger": 88,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.6,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 2,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.735397940411935,
+   "free_space": {
+    "n": 1.0,
+    "found": 2,
+    "targets": 3,
+    "danger": 76,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 24,
+    "false": 4
+   },
+   "this": {
+    "n": 2.7299999999999995,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 9
+   }
+  },
+  {
+   "seed": 3,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.602694250483388,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 136,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 34,
+    "false": 4
+   },
+   "this": {
+    "n": 2.6499999999999995,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 4,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.7598158785959868,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 5,
+    "danger": 149,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 35,
+    "false": 7
+   },
+   "this": {
+    "n": 2.499999999999999,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 8
+   }
+  },
+  {
+   "seed": 5,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.551413747131998,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 155,
+    "false": 3
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 36,
+    "false": 5
+   },
+   "this": {
+    "n": 2.6099999999999994,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 7
+   }
+  },
+  {
+   "seed": 6,
+   "wall": "drywall_5/8",
+   "n_true": 1.580465895563835,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 150,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.6800000000000002,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 7,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.6542846183153372,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 104,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 25,
+    "false": 6
+   },
+   "this": {
+    "n": 2.6099999999999994,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 8,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.727282613543979,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 160,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 42,
+    "false": 4
+   },
+   "this": {
+    "n": 2.6499999999999995,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 8
+   }
+  },
+  {
+   "seed": 9,
+   "wall": "drywall_5/8",
+   "n_true": 1.6372096863383805,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 92,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.75,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 10,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.7160540287939585,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 5,
+    "danger": 157,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 35,
+    "false": 6
+   },
+   "this": {
+    "n": 2.6499999999999995,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 6
+   }
+  },
+  {
+   "seed": 11,
+   "wall": "drywall_1/2",
+   "n_true": 1.6986049041503501,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 3,
+    "danger": 140,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.1800000000000002,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 12,
+   "wall": "drywall_5/8",
+   "n_true": 1.5354705793146979,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 148,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.71,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 13,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.601806533695295,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 5,
+    "danger": 115,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 25,
+    "false": 8
+   },
+   "this": {
+    "n": 2.6099999999999994,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 5
+   }
+  },
+  {
+   "seed": 14,
+   "wall": "drywall_1/2",
+   "n_true": 1.7234561255480008,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 123,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 4
+   },
+   "this": {
+    "n": 1.79,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 4
+   }
+  },
+  {
+   "seed": 15,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.6550334150598753,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 150,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 36,
+    "false": 7
+   },
+   "this": {
+    "n": 2.6899999999999995,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 7
+   }
+  }
+ ]
+}

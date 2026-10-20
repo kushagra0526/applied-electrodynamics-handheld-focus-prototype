@@ -1,0 +1,5 @@
+{
+ "note": "Frozen before the first run. Wall builds dev never saw (plaster on lath eps~4, double drywall 25 mm) plus tile on cement board and 1/2in drywall, wider eps spread (+-25%), more hand wobble (6 mm), lower SNR (20 dB), new seeds.",
+ "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+ "cfg": {"walls": ["plaster_lath", "drywall_double", "tile_on_cement_board", "drywall_1/2"], "eps_jitter": 0.25, "wobble_mm": 6.0, "snr_db": 20.0}
+}
