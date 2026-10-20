@@ -35,6 +35,10 @@ def standoff(S, h_nominal):
         lo = max(0, i0 - w)
         j = lo + int(np.argmax(mag[k, lo:i0 + w]))
         h[k] = _peak(mag[k], j) * tau[1] * C / 2
+    # post-run fix: a hand moves smoothly, so a pick that jumps away from its neighbours locked onto a target echo
+    med = np.array([np.median(h[max(0, k - 6):k + 7]) for k in range(len(h))])
+    bad = np.abs(h - med) > 0.002
+    h[bad] = np.interp(np.flatnonzero(bad), np.flatnonzero(~bad), h[~bad]) if (~bad).sum() > 1 else med[bad]
     return h
 
 
@@ -95,7 +99,8 @@ def form(scan, method, h_nominal=0.025, n_nominal=np.sqrt(2.8), grid=(0.002, 0.0
     else:                                             # autofocus on a coarse grid behind the wall, then refine
         Xc, Zc = np.meshgrid(X1[::3], Z1[::2])
         def score(n):
-            return sharpness(backproject(Sc, xs, h, [(opt / n, n * n)], Xc, Zc) * (Zc > opt / n + 0.002))
+            mask = Zc > opt / n + 0.002
+            return sharpness(backproject(Sc, xs, h, [(opt / n, n * n)], Xc, Zc) * mask) * mask.sum()   # post-run fix: region-size neutral
         cands = np.arange(1.3, 3.21, 0.15)
         best = max(cands, key=score)
         fine = np.arange(best - 0.12, best + 0.121, 0.04)

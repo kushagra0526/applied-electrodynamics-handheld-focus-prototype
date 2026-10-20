@@ -1,0 +1,826 @@
+{
+ "set": "heldout",
+ "results": {
+  "free_space": {
+   "walls": 30,
+   "targets": 120,
+   "found": 23,
+   "false": 23,
+   "drill": 22560,
+   "unsafe": 3679,
+   "danger": 3489,
+   "false_stop": 152,
+   "dz_median_mm": 16.883038061513798,
+   "dz_p90_mm": 33.17314306748885,
+   "dx_median_mm": 4.5307940084818865
+  },
+  "nominal_eps": {
+   "walls": 30,
+   "targets": 120,
+   "found": 116,
+   "false": 106,
+   "drill": 22560,
+   "unsafe": 3679,
+   "danger": 488,
+   "false_stop": 1781,
+   "dz_median_mm": 4.247515594423655,
+   "dz_p90_mm": 15.021417503997082,
+   "dx_median_mm": 0.0
+  },
+  "this": {
+   "walls": 30,
+   "targets": 120,
+   "found": 111,
+   "false": 131,
+   "drill": 22560,
+   "unsafe": 3679,
+   "danger": 424,
+   "false_stop": 2283,
+   "dz_median_mm": 1.7486772049878259,
+   "dz_p90_mm": 5.04239171828846,
+   "dx_median_mm": 0.0
+  }
+ },
+ "walls": [
+  {
+   "seed": 101,
+   "wall": "drywall_double",
+   "n_true": 1.7562708521636037,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 69,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.79,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 1
+   }
+  },
+  {
+   "seed": 102,
+   "wall": "drywall_double",
+   "n_true": 1.7712085278692744,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 3,
+    "danger": 102,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 7
+   },
+   "this": {
+    "n": 1.2200000000000002,
+    "found": 3,
+    "targets": 3,
+    "danger": 34,
+    "false": 9
+   }
+  },
+  {
+   "seed": 103,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.737295014392816,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 140,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 35,
+    "false": 5
+   },
+   "this": {
+    "n": 2.719999999999999,
+    "found": 3,
+    "targets": 4,
+    "danger": 48,
+    "false": 7
+   }
+  },
+  {
+   "seed": 104,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.5356351160431507,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 110,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 23,
+    "false": 6
+   },
+   "this": {
+    "n": 2.579999999999999,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 4
+   }
+  },
+  {
+   "seed": 105,
+   "wall": "drywall_double",
+   "n_true": 1.4681909837800198,
+   "free_space": {
+    "n": 1.0,
+    "found": 2,
+    "targets": 4,
+    "danger": 57,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 5
+   },
+   "this": {
+    "n": 2.499999999999999,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 16
+   }
+  },
+  {
+   "seed": 106,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.760299429313322,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 154,
+    "false": 4
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 44,
+    "false": 3
+   },
+   "this": {
+    "n": 2.5299999999999994,
+    "found": 4,
+    "targets": 4,
+    "danger": 12,
+    "false": 8
+   }
+  },
+  {
+   "seed": 107,
+   "wall": "plaster_lath",
+   "n_true": 2.0013682229511125,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 129,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.9,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 108,
+   "wall": "plaster_lath",
+   "n_true": 1.798836044201717,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 143,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.8599999999999999,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 109,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.7652796873541194,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 3,
+    "danger": 136,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 34,
+    "false": 3
+   },
+   "this": {
+    "n": 3.219999999999999,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 12
+   }
+  },
+  {
+   "seed": 110,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.6035075815005837,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 5,
+    "danger": 119,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 23,
+    "false": 8
+   },
+   "this": {
+    "n": 2.6499999999999995,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 5
+   }
+  },
+  {
+   "seed": 111,
+   "wall": "drywall_double",
+   "n_true": 1.6456159407871143,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 2,
+    "danger": 96,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 2,
+    "targets": 2,
+    "danger": 12,
+    "false": 2
+   },
+   "this": {
+    "n": 1.2200000000000002,
+    "found": 2,
+    "targets": 2,
+    "danger": 24,
+    "false": 2
+   }
+  },
+  {
+   "seed": 112,
+   "wall": "plaster_lath",
+   "n_true": 2.144142450642987,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 3,
+    "danger": 132,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 33,
+    "false": 3
+   },
+   "this": {
+    "n": 3.219999999999999,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 10
+   }
+  },
+  {
+   "seed": 113,
+   "wall": "drywall_double",
+   "n_true": 1.490110641240547,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 3,
+    "danger": 101,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.5300000000000002,
+    "found": 3,
+    "targets": 3,
+    "danger": 2,
+    "false": 3
+   }
+  },
+  {
+   "seed": 114,
+   "wall": "plaster_lath",
+   "n_true": 1.9664100415325634,
+   "free_space": {
+    "n": 1.0,
+    "found": 2,
+    "targets": 4,
+    "danger": 86,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 4,
+    "false": 0
+   },
+   "this": {
+    "n": 2.119999999999999,
+    "found": 4,
+    "targets": 4,
+    "danger": 4,
+    "false": 0
+   }
+  },
+  {
+   "seed": 115,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.4505854245971106,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 160,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 34,
+    "false": 4
+   },
+   "this": {
+    "n": 2.539999999999999,
+    "found": 3,
+    "targets": 5,
+    "danger": 88,
+    "false": 4
+   }
+  },
+  {
+   "seed": 116,
+   "wall": "plaster_lath",
+   "n_true": 2.216834752268389,
+   "free_space": {
+    "n": 1.0,
+    "found": 2,
+    "targets": 3,
+    "danger": 95,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 23,
+    "false": 3
+   },
+   "this": {
+    "n": 2.1599999999999993,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 117,
+   "wall": "plaster_lath",
+   "n_true": 2.051370829593649,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 6,
+    "danger": 183,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 6,
+    "targets": 6,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 2.09,
+    "found": 6,
+    "targets": 6,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 118,
+   "wall": "drywall_double",
+   "n_true": 1.5490959328445715,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 105,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.56,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 119,
+   "wall": "drywall_double",
+   "n_true": 1.7693709728478115,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 120,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.9,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 120,
+   "wall": "drywall_double",
+   "n_true": 1.5375171879491525,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 3,
+    "danger": 92,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.56,
+    "found": 3,
+    "targets": 3,
+    "danger": 4,
+    "false": 2
+   }
+  },
+  {
+   "seed": 121,
+   "wall": "drywall_double",
+   "n_true": 1.7713699084489776,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 123,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 24,
+    "false": 2
+   },
+   "this": {
+    "n": 1.83,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 122,
+   "wall": "drywall_1/2",
+   "n_true": 1.6213014014496685,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 151,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 5
+   },
+   "this": {
+    "n": 2.05,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 5
+   }
+  },
+  {
+   "seed": 123,
+   "wall": "plaster_lath",
+   "n_true": 1.8549177193463924,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 5,
+    "danger": 144,
+    "false": 3
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.8599999999999999,
+    "found": 5,
+    "targets": 5,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 124,
+   "wall": "drywall_1/2",
+   "n_true": 1.8592445843761365,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 109,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.94,
+    "found": 4,
+    "targets": 4,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 125,
+   "wall": "drywall_double",
+   "n_true": 1.5974099028373572,
+   "free_space": {
+    "n": 1.0,
+    "found": 2,
+    "targets": 6,
+    "danger": 91,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 6,
+    "targets": 6,
+    "danger": 0,
+    "false": 3
+   },
+   "this": {
+    "n": 1.6400000000000001,
+    "found": 6,
+    "targets": 6,
+    "danger": 0,
+    "false": 3
+   }
+  },
+  {
+   "seed": 126,
+   "wall": "drywall_double",
+   "n_true": 1.4540538417599338,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 3,
+    "danger": 69,
+    "false": 2
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 2
+   },
+   "this": {
+    "n": 1.4500000000000002,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 2
+   }
+  },
+  {
+   "seed": 127,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.5390225496914214,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 3,
+    "danger": 110,
+    "false": 0
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 3,
+    "targets": 3,
+    "danger": 24,
+    "false": 4
+   },
+   "this": {
+    "n": 2.3899999999999997,
+    "found": 3,
+    "targets": 3,
+    "danger": 0,
+    "false": 4
+   }
+  },
+  {
+   "seed": 128,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.4621980059179385,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 105,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 27,
+    "false": 4
+   },
+   "this": {
+    "n": 2.499999999999999,
+    "found": 4,
+    "targets": 4,
+    "danger": 8,
+    "false": 6
+   }
+  },
+  {
+   "seed": 129,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.873414997149039,
+   "free_space": {
+    "n": 1.0,
+    "found": 0,
+    "targets": 4,
+    "danger": 104,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 0,
+    "targets": 4,
+    "danger": 104,
+    "false": 3
+   },
+   "this": {
+    "n": 1.71,
+    "found": 0,
+    "targets": 4,
+    "danger": 104,
+    "false": 0
+   }
+  },
+  {
+   "seed": 130,
+   "wall": "tile_on_cement_board",
+   "n_true": 2.723608466353019,
+   "free_space": {
+    "n": 1.0,
+    "found": 1,
+    "targets": 4,
+    "danger": 154,
+    "false": 1
+   },
+   "nominal_eps": {
+    "n": 1.6733200530681511,
+    "found": 4,
+    "targets": 4,
+    "danger": 44,
+    "false": 7
+   },
+   "this": {
+    "n": 2.7299999999999995,
+    "found": 2,
+    "targets": 4,
+    "danger": 96,
+    "false": 5
+   }
+  }
+ ]
+}
